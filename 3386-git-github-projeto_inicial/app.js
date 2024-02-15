@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 5; // Número entre 1 a 5
+let numeroLimite = 10; 
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -10,8 +10,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Esta mensagem vem Vscode'); // Jogo do Número Secreto
-    exibirTextoNaTela('p', 'Estudo Vlaviano teste'); // Escolha um Número entre 1 e 50
+    exibirTextoNaTela('h1', 'Jogo do Número Secreto'); 
+    exibirTextoNaTela('p', 'Escolha um Número entre 1 e 10'); 
 }
 
 exibirMensagemInicial();
