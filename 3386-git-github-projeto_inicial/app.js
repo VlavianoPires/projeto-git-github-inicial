@@ -10,8 +10,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'bla bla teste');
+    exibirTextoNaTela('h1', 'Esta mensagem vem Vscode');
+    exibirTextoNaTela('p', 'Estudo Vlaviano teste');
 }
 
 exibirMensagemInicial();
